@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <title>Ocularus - Minimal Photography Html Template</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by CocoBasic" />
+        <title>Pia Tello's Portfolio</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+       
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="CocoBasic" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-        <link rel="shortcut icon" href="images/favicon.ico" />        
-        <link href='http://fonts.googleapis.com/css?family=Montserrat%7CRoboto:300,300i,400,700' rel='stylesheet' type='text/css'>		
+        <link rel="shortcut icon" href="images/favicon.ico" />       
+        <link href='http://fonts.googleapis.com/css?family=Montserrat%7CRoboto:300,300i,400,700' rel='stylesheet' type='text/css'/>		
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -20,10 +20,11 @@
         <!--[if lt IE 9]>
                 <script src="js/html5.js"></script>            
                 <script src="js/respond.min.js"></script>                   
-        <![endif]--> 
+        <![endif]-->  
     </head>
 
-    <body class="page page-portfolio">
+
+    <body class="home">
 
         <!-- Preloader Gif -->
         <div class="doc-loader"></div>
@@ -33,18 +34,18 @@
             <nav id="header-main-menu">
                 <ul class="main-menu sm sm-clean">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>                    
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About Me</a></li>               
+                    <li><a href="skills.html">Skills</a></li>
                 </ul>
-            </nav>       
+            </nav>        
             <footer>
                 <div class="footer-info">    
                     <p class="footer-social">
-                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                            <a href="#"><span class="fa fa-instagram"></span></a> 
-                            <a href="#"><span class="fa fa-slack"></span></a>                             
+                        <a href="https://www.linkedin.com/in/piatello/"><span class="fa fa-linkedin"></span></a>
+                        <a href="https://www.instagram.com/piaa650/"><span class="fa fa-instagram"></span></a> 
+                        <a href="https://github.com/tellomp"><span class="fa fa-github"></span></a>                         
                     </p>
+
                 </div>
             </footer>
         </div>
@@ -56,35 +57,37 @@
                     <div class="menu-line"></div>
                 </div>
             </div>                        
-        </div>        						        							        
+        </div>        						        
 
 
+        <!-- Home Content -->
         <div id="content" class="site-content">
 
             <div class="content-left">
                 <div class="content-left-holder">
                     <div class="welcome-content">
                             <img class="welcome-image" src="images/background_02.png" alt="" />
-                        <div class="site-logo">
+                        <h1 class="site-logo">
                             <a href="index.html">
-                                    <img src="images/piaLogo.png" alt="Ocularus">
+                                <img src="images/mptlogo.png" style= "margin : 8px"alt="Ocularus">
                             </a>
-                        </div>
+                        </h1>
                         <div class="site-description">
-                                Hello,<br>
-                                my name is Pia Tello and <br>
-                                I am a full stack web developer that lives in the metro DC area.
+                            Hello,<br>
+                            My name is Pia Tello and <br>
+                            I'm a remote freelance full stack web developer living in the metro DC area.
                             <br>
                             <br>
-                            <a href="https://goo.gl/Iuqj8E" target="_blank">
+                            <a href="https://goo.gl/maps/cgpAXc1v6xfmprLf6" target="_blank">
                                 39.1290° N <br>
                                 77.3784° W
                             </a>
                             <br>
                             <br>
-                            <p>+01 980 272-8066</p>
+                            <p style= "font-size: 15pt; font-weight: bolder; padding-bottom:7px"> Get in touch</i></p> 
+                            <p style= "font-size: 12pt;"> 980 272-8066</p>
                             <p>
-                                <a href="mailto:hello@yoursite.com">tellomp@gmail.com</a>
+                            <a style= "font-size: 12pt;" href="mailto:tellomp@gmail.com">tellomp@gmail.com</a>
                             </p>
                         </div>
                     </div>
@@ -92,119 +95,90 @@
             </div>
 
             <div class="content-right">
-                <div class="portfolio-wrapper">
-                    <div class="category-filter">
-                        <div class="category-filter-icon"></div>                       
-                    </div>
-                    <div class="category-filter-list button-group filters-button-group">
-                        <div class="button is-checked" data-filter="*">All</div>
-                        <div class="button" data-filter=".interior">Interior</div>
-                        <div class="button" data-filter=".abstract">Abstract</div>
-                        <div class="button" data-filter=".industry">Industry</div>
-                    </div>
-                    <div class="grid" id="portfolio">                    
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item element-item p_one_third interior">
-                            <a href="https://tellomp-clicky-game.herokuapp.com/">
-                                <img src="images/clickygame.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Clicky Game</p>
-                                    <p class="portfolio-cat"></p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="grid-item element-item p_one_third abstract industry">
-                            <a href="https://tellomp.github.io/unit-4-game/">
-                                <img src="images/crystal.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Crystal Game</p>
-                                    <p class="portfolio-cat">JQuery</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="grid-item element-item p_one_third industry">
-                            <a href="https://tellomp.github.io/TriviaGame/">
-                                <img src="images/scandal.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Trivia Game</p>
-                                    <p class="portfolio-cat">JavaScript</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="grid-item element-item p_two_third abstract interior">
-                            <a href="https://mytravelgwb.herokuapp.com/">
-                                <img src="images/myTravel.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">myTravelApp</p>
-                                    <p class="portfolio-cat">Project 2</p>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="grid-item element-item p_one_third industry">
-                            <a href="https://tellomp.github.io/GiphyPage">
-                                <img src="images/giphyPage.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">GifTastic</p>
-                                    <p class="portfolio-cat">API/Ajax Calls</p>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="grid-item element-item p_one_third abstract interior">
-                            <a href="https://github.com/tellomp/liri-node-app">
-                                <img src="images/liri.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Liri Bot</p>
-                                    <p class="portfolio-cat">Node.js/CLI APP</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="grid-item element-item p_one_third industry">
-                            <a href="https://github.com/tellomp/bamazon">
-                                <img src="images/bamazon.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Bamazon</p>
-                                    <p class="portfolio-cat">Node.js & mySQL</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="grid-item element-item p_one_third interior abstract">
-                            <a href="https://shrouded-caverns-75086.herokuapp.com/">
-                                <img src="images/friendsFinder.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Friend Finder</p>
-                                    <p class="portfolio-cat">Node.js & Express Servers</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="grid-item element-item p_one_third interior industry">
-                            <a href="https://github.com/tellomp/burgerApp">
-                                <img src="images/burger.jpg" alt="" />
-                                <div class="portfolio-text-holder">
-                                    <p class="portfolio-text">Burger App</p>
-                                    <p class="portfolio-cat">Node Express Handlebars</p>
-                                </div>
-                            </a>
-                        </div>          
-                    </div>                
+                <div class="slider-wrapper">	         
+                    <div class="carousel-slider">
+                        <div class="carousel">
+                                <div class="carousel-cell">
+                                        <img src="./images/dangerousIntersections.jpg" alt="" style = "width: 850px; height:600px"/></a>
+                                        <p class="post-num">12</p>
+                                        <h3 class="entry-title"><a href="https://github.com/tellomp/P3Deployment">Dangerous Intersections</a></h3>
+                                        <p class="cat-links">MERN Stack</p>
+                                </div> 
+                                <div class="carousel-cell">
+                                        <img src="./images/mongoDB.jpg" alt = "" style = "width: 850px; height:600px"/></a>
+                                        <p class="post-num">11</p>
+                                        <h3 class="entry-title"><a href="https://cryptic-taiga-84181.herokuapp.com">MongoDB New York Times Scraper</a></h3>
+                                        <p class="cat-links">MongoDB/Mongoose</p>
+                                </div> 
+                                <div class="carousel-cell">
+                                        <img src="./images/psychicGame.jpg" alt="" style = "width: 850px; height:600px"/></a>
+                                        <p class="post-num">10</p>
+                                        <h3 class="entry-title"><a href=" https://tellomp.github.io/Psychic-Game/">Psychic Game</a></h3>
+                                        <p class="cat-links">jQuery</p>
+                                </div> 
+                                <div class="carousel-cell">
+                                        <img src="./images/clickygame.jpg" alt=" " style = "width: 850px; height:600px"/></a>
+                                        <p class="post-num">09</p>
+                                        <h3 class="entry-title"><a href="https://tellomp-clicky-game.herokuapp.com/">Clicky Game</a></h3>
+                                        <p class="cat-links">React</p>
+                                </div> 
+                                <div class="carousel-cell">
+                                        <img src="images/scandal.jpg" alt="" style = "width: 850px; height:600px"/></a>
+                                        <p class="post-num">08</p>
+                                        <h3 class="entry-title"><a href="https://tellomp.github.io/TriviaGame/">Trivia Game</a></h3>
+                                        <p class="cat-links">JavaScript</p>
+                                    </div>  
+                                <div class="carousel-cell">
+                                        <img src="images/myTravel.jpg" alt="" style = "width: 850px; height:600px"/>
+                                        <p class="post-num">07</p>
+                                        <h3 class="entry-title"><a href="images/portfolio_img_04.jpg">myTravelApp</a></h3>
+                                        <p class="cat-links">Project 2</p>
+                                    </div>  
+                                <div class="carousel-cell">
+                                        <img src="images/giphyPage.jpg" alt=""style = "width: 850px; height:600px" />
+                                        <p class="post-num">06</p>
+                                        <h3 class="entry-title"><a href="ttps://tellomp.github.io/GiphyPage">GifTastic</a></h3>
+                                        <p class="cat-links">API/Ajax Calls</p>
+                                    </div>  
+                            <div class="carousel-cell">
+                                <img src="images/liri.jpg" alt="" style = "width: 850px; height:600px"/>
+                                <p class="post-num">05</p>
+                                <h3 class="entry-title"><a href="https://github.com/tellomp/liri-node-app">Liri Bot</a></h3>
+                                <p class="cat-links">Node.js/CLI</p>
+                            </div>                       
+                            <div class="carousel-cell">
+                                <img src="images/bamazon.jpg" alt="" style = "width: 850px; height:600px"/>
+                                <p class="post-num">04</p>
+                                <h3 class="entry-title"><a href="https://github.com/tellomp/bamazon">Bamazon</a></h3>
+                                <p class="cat-links">Node.js & mySQL</p>
+                            </div>                       
+                            <div class="carousel-cell">
+                                <img src="images/burger.jpg" alt=""style = "width: 850px; height:600px" />
+                                <p class="post-num">03</p>
+                                <h3 class="entry-title"><a href="https://github.com/tellomp/burgerApp">Burger App</a></h3>
+                                <p class="cat-links">Node Express Handlebars</p>
+                            </div>                       
+                            <div class="carousel-cell">
+                                <img src="images/friendsFinder.jpg" alt=""style = "width: 850px; height:600px" />
+                                <p class="post-num">02</p>
+                                <h3 class="entry-title"><a href="https://frozen-inlet-63298.herokuapp.com/">Friend Finder</a></h3>
+                                <p class="cat-links">Node.js & Express Servers</p>
+                            </div>                                                     
+                            <div class="carousel-cell">
+                                    <img src="images/crystal.jpg" alt="" style = "width: 850px; height:600px"/>
+                                    <p class="post-num">01</p>
+                                    <h3 class="entry-title"><a href="https://tellomp.github.io/unit-4-game/">Crystal Game</a></h3>
+                                    <p class="cat-links">JQuery</p>
+                                </div>                                                 
+                        </div>                                              
+                    </div>                          
                 </div>
-                <div class="clear"></div>      
             </div>
-            <div class="clear"></div>  
-        </div>
-
+            <div class="clear"></div>
+        </div>        
 
         <!--Load JavaScript-->
-        <script type="text/javascript" src="js/jquery.js"></script>			                                       
+        <script type="text/javascript" src="js/jquery.js"></script>
         <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>                
         <script type='text/javascript' src='js/isotope.pkgd.js'></script>                
         <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>           
