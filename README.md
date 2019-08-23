@@ -40,7 +40,7 @@
 
 
 ### Live App
-* Check out my portfolio here: https://tellomp.github.io/Portfolio/
+* Check out my portfolio here: https://mariapiatello.com
 
 ### Technologies Used
 * HTML
